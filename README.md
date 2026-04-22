@@ -1,24 +1,31 @@
 🧬 RNA-Seq Differential Gene Expression Pipeline
- Overview
+# Overview
 
 This project is a complete end-to-end RNA-Seq analysis workflow starting from raw sequencing data (SRA) to biological interpretation. It includes quality control, preprocessing, alignment, gene quantification, differential expression analysis, and pathway enrichment.
 
 The goal of this project is to identify differentially expressed genes between experimental conditions and understand their biological significance.
 
-🎯## Objectives
-# Perform quality assessment of raw sequencing reads
-# Clean and trim reads for high-quality analysis
-# Align reads to a reference genome
-# Generate gene-level count matrix
-# Identify differentially expressed genes
-# Visualize expression patterns
-# Perform functional enrichment analysis
-🧪 Dataset
+# Objective
+Perform quality assessment of raw sequencing reads
+
+ Clean and trim reads for high-quality analysis
+ 
+ Align reads to a reference genome
+ 
+ Generate gene-level count matrix
+
+ Identify differentially expressed genes
+
+ Visualize expression patterns
+
+Perform functional enrichment analysis
+
+# Dataset
 Public RNA-Seq dataset downloaded from SRA
 Example accession: SRR37232210
 Paired-end Illumina sequencing data
 
-⚙️ Workflow Summary
+# Workflow Summary
 
 The pipeline follows these major steps:
 
@@ -46,7 +53,7 @@ Data visualization (heatmap)
 
 Functional enrichment analysis (KEGG pathways)
 
-🛠 Tools & Technologies Used
+# Tools & Technologies Used
 🔬 Bioinformatics Tools
 SRA Toolkit
 
@@ -71,7 +78,7 @@ clusterProfiler
 
 org.Hs.eg.db
 
-📊 Outputs Generated
+# Outputs Generated
 Raw and processed quality reports
 
 Aligned BAM files
@@ -86,7 +93,7 @@ Heatmap visualization
 
 KEGG pathway enrichment results
 
-🧠 Biological Interpretation
+# 🧠 Biological Interpretation
 
 This pipeline helps in identifying:
 
@@ -98,7 +105,7 @@ Biological pathways involved in the experiment
 
 Functional insights into disease or treatment response
 
-💼 Skills Demonstrated
+# Skills Demonstrated
 RNA-Seq data analysis
 
 High-performance computing workflow
@@ -111,7 +118,7 @@ Functional genomics interpretation
 
 End-to-end NGS data processing
 
-📌 Applications
+# Applications
 Cancer genomics
 
 Drug response studies
@@ -122,7 +129,7 @@ Transcriptomics research
 
 Academic research projects
 
-🚀 Future Improvements
+# Future Improvements
 Workflow automation using Snakemake
 
 Containerization using Docker
